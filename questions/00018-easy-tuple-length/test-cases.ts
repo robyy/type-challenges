@@ -16,5 +16,7 @@ type cases = [
   Length<'hello world'>,
 ]
 
+const l3: Length<[number, number, boolean]> // const l3: 3, l3 is a literal number: 3, very specific number
+
 console.log(typeof tesla) // readonly ['tesla', 'model 3', 'model X', 'model Y']
 console.log(typeof Fruits2) // string[], it's just array of string, it can have 0 OR more elements, too wide.
