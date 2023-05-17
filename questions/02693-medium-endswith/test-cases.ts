@@ -7,4 +7,6 @@ type cases = [
   Expect<Equal<EndsWith<'abc', 'ac'>, false>>,
   Expect<Equal<EndsWith<'abc', ''>, true>>,
   Expect<Equal<EndsWith<'abc', ' '>, false>>,
+  Expect<Equal<EndsWith<'ice cream', 'cream'>, true>>,
+  Expect<Equal<EndsWith<'ice cream', 'chocolate'>, false>>,
 ]
