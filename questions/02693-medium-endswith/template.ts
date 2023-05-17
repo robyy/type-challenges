@@ -18,3 +18,6 @@
  * If this condition is true, the `EndsWith` type resolves to `true`, otherwise, it resolves to `false`.
  */
 type EndsWith<A extends string, B extends string> = A extends `${any}${B}` ? true : false
+// use `${string}` also works, meaning all possible strings.
+// type EndsWith<A extends string, B extends string> = A extends `${string}${B}` ? true : false
+
