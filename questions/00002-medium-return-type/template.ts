@@ -1,1 +1,2 @@
-type MyReturnType<T> = any
+// (...args: any) => any, any Function type
+type MyReturnType<T extends (...args: any) => any> = T extends (...args: any) => infer R ? R : any
