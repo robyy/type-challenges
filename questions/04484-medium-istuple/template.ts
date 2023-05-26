@@ -1,6 +1,6 @@
 type IsTuple<T> = [T] extends [never] ? false : T extends readonly [] ? true :
     // array like any[] has 0 or more elements, so if it's empty array, T extends readonly [infer _Head, ...infer _Tail] is false
-    (T extends readonly [infer _Head, ...infer _Tail] ? true : false)
+    (T extends readonly [infer _Head, ...infer _Tail] ? true : false) // but it works with empty tuple type: []
 
 // for some reasone, T extends never ? false : doesn't work.
 type IsTuple2<T> = [T] extends [never] ? false :
