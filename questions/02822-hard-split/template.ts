@@ -1,3 +1,5 @@
+// https://github.com/type-challenges/type-challenges/issues/21338
+
 // type Split<S extends string, SEP extends string> =
 //     S extends `${infer L}${SEP}${infer R}` // first occurrence of SEP
 //       ? [L, ...Split<R, SEP>]

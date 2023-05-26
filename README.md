@@ -1,5 +1,6 @@
 <p align='center'>
   <img src='./screenshots/logo.svg' width='400'/>
+
 </p>
 
 <p align='center'>Collection of TypeScript type challenges</p>
@@ -20,6 +21,7 @@
 </p>
 
 ## Intro
+https://github.com/type-challenges/type-challenges/issues/21338
 
 <p align='center'>
   <del><em>by the power of TypeScript's well-known <a href="https://github.com/microsoft/TypeScript/issues/14833">Turing Completed</a> type system</em></del>
