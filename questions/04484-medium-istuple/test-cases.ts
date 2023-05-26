@@ -7,4 +7,7 @@ type cases = [
   Expect<Equal<IsTuple<{ length: 1 }>, false>>,
   Expect<Equal<IsTuple<number[]>, false>>,
   Expect<Equal<IsTuple<never>, false>>,
+
+  Expect<Equal<IsTuple2<[]>, true>>,
+  Expect<Equal<IsTuple2<never>, false>>,
 ]
